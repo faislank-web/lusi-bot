@@ -1,0 +1,11 @@
+pyTelegramBotAPI
+requests
+flask
+pillow
+google-genai
+groq
+huggingface_hub
+pyrogram
+tgcrypto
+pytz
+deep-translator
