@@ -57,12 +57,12 @@ def sync_ke_cloud():
         pass
 
 # --- [ 1. DATA AKSES & KONFIGURASI ] ---
-TELEGRAM_TOKEN = "8485819414:AAFuMaapg-DJ6s5FpNjRPFUU6gAr9Cv18aw"
-GEMINI_KEY = "AIzaSyAfORMxFIT7pIG1PmZwcG6LnmQ0MS6g5l8"
-GROQ_KEY = "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"
-TMDB_KEY = "61e2290429798c561450eb56b26de19b"
-API_ID = 36241979 
-API_HASH = "a095fe03065340261572f016a2c47ed0"
+TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
+GEMINI_KEY = os.environ.get("GEMINI_KEY")
+GROQ_KEY = os.environ.get("GROQ_KEY")
+TMDB_KEY = os.environ.get("TMDB_KEY")
+API_ID = int(os.environ.get("API_ID"))
+API_HASH = os.environ.get("API_HASH")
 
 ADMIN_IDS = [8227188993, 8655650754, 7705672932] 
 ID_ANONIM = 1087968824 
